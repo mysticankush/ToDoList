@@ -77,6 +77,10 @@ ol li{
   justify-content: left;
   word-spacing:20px;
   align-items:center;
+  background-color:#f4f4f4;
+}
+.list1{
+  background-color:#f4f4f4;
 }
 .todo-style .fa-times{
   width:20px;
@@ -121,6 +125,14 @@ button {
 .list{
   margin-left:33px;
 }
-.p1{
-  margin:auto 14px;
+.cross{
+    margin-left:35px;
+    min-height:30px;
+    width:30px;
+    color:#fff;  
+    font-size:20px;
+    margin-right:15px;
+}
+.cross:hover{
+  background-color: red;
 }
