@@ -1,17 +1,12 @@
 import React from 'react';
 const ToDoList = (props) => {
-    const deleteitem = () => {
-        console.log("deleted");
-    };
     return (
-        <>
-            <div className="todo_style">
-                <p className="p1" onClick={() => {
-                    props.onSelect(props.id);
-                }}>✖️</p>
-                <li className="list">{props.text}</li>
-            </div>
-        </>
-    );
+        <div className='todo_style'>
+        <button className="cross" onClick={()=>{
+            props.onSelect(props.id);
+        }}>x</button>
+        <li className='list1'>{props.text}</li>
+        </div>
+        );
 };
 export default ToDoList;
